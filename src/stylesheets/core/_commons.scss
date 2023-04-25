@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    p{
+        font-size: 1.65rem;
+        font-weight: 600;
+        color: rgb(194, 194, 194);
+    }
+    
+    h1{
+        font-size: 3.4rem;
+        font-weight: 600;
+    }
+    
+    h2{
+        font-size: 2.7rem;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    li{
+        list-style: none;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+}

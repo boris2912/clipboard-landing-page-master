@@ -1,0 +1,17 @@
+header{
+    background-image: url("../src/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10vh 6vw 5vh 6vw;
+    text-align: center;
+
+    img{
+        max-width: 30vw;
+        padding: 5vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header{
+        padding: 10vh 3vw 5vh 3vw;
+    }
+}

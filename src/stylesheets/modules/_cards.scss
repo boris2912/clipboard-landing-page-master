@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    padding: 3rem 15rem;
+    .card{
+        text-align: center;
+        padding: 1rem;
+        max-width: 33.333%;
+        img{
+            height: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cards{
+        flex-direction: column;
+        padding: 3rem 3rem;
+        .card{
+            text-align: center;
+            padding: 1rem;
+            max-width: 100%;
+            img{
+                height: 4rem;
+            }
+        }
+    }
+}

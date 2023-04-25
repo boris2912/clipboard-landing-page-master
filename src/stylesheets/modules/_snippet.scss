@@ -1,0 +1,14 @@
+.snippet{
+    text-align: center;
+    max-width: 45vw;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+@media screen and (max-width: 600px) {
+    .snippet{
+        text-align: center;
+        max-width: 375px;
+        margin: auto;
+        padding: 0 2rem;
+    }
+}

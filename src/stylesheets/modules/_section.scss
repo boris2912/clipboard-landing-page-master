@@ -1,0 +1,47 @@
+.first{
+    margin: 10rem 0;
+    display: flex;
+    .image-wrapper{
+        max-width: 70%;
+        img{
+            max-width: 100%;
+        }
+    } 
+    .list{
+        max-width: 30%;
+        padding: 0 5rem;
+        li{
+            margin-top: 5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .first{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+        .image-wrapper{
+            max-width: 100%;
+            img{
+                max-width: 100%;
+            }
+        } 
+        .list{
+            max-width: 100%;
+            text-align: center;
+            padding: 0;
+            ul{
+                padding: 0;
+            }
+        }
+    }
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    img{
+        max-width: 100%;
+    }
+}

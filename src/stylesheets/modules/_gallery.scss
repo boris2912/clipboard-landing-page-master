@@ -1,0 +1,25 @@
+.gallery{
+    display: flex;
+    padding: 5rem 13rem;
+    justify-content: center;
+    img{
+        width: 20%;
+        padding: 2vw;
+        box-sizing: border-box;
+        height:fit-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery{
+        display: flex;
+        padding: 1rem 8rem;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 100%;
+            padding: 5rem;
+            box-sizing: border-box;
+        }
+    }
+}

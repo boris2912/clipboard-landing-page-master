@@ -1,0 +1,35 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 10rem;
+
+    .btn{
+        padding: 0 3rem;
+        border-radius: 5rem;
+
+        &:nth-child(1){
+            background-color: hsl(171, 66%, 44%);
+            box-shadow: 0 3px hsl(171, 64%, 35%);
+        }
+        &:nth-child(2){
+            background-color: hsl(233, 100%, 69%);
+            box-shadow: 0 3px hsl(233, 46%, 51%);
+        }
+        p{
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .btn{
+            width: 60vw;
+        }
+    }
+}
